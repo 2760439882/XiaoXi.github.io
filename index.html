@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>弹跳彩球</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1>弹跳彩球</h1>
+    <p id="defen">得分是：</p>
+      <!-- 结束窗口 -->
+    <div id="Box">
+      <div> <a id="close" href="#">×</a> </div>
+      <div class="cover_Box">
+          <div><span class="title">最后得分</span></div>
+          <label>游戏姓名：</label>
+          <input type="text" id="play" placeholder="请输入名字"> 
+      </div>
+      <table border="1" id="table">
+        <tr>
+          <th>姓名：</th>
+          <th>得分：</th>
+          <th>时间：</th>
+        </tr>
+      </table>
+      <div style="text-align: center;">
+        <button id="btn">保存</button>
+      </div>
+    </div>
+      <!-- 遮盖层 -->
+      <!-- <div id="cover"></div> -->
+    
+
+
+    <canvas></canvas>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>
